@@ -114,7 +114,7 @@ const Home = () => {
             DISCOVER Your <br /> TASTE
           </h1>
           <img
-            src="/src/assets/salad.jpg"
+            src="https://s3-alpha-sig.figma.com/img/a08e/7bbd/2f23fa736aa0c571032615463571172e?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Dm-0kl5rcsv8SwD0O3H7-T3dK3Q9-LYRiW7MkUqMGvZTYdDj8zR2z97N6n1XDiMVJIFh7-3N5H8XmSw~6fuCsXi1lgoLoD51yhpJmBINeYCUH1x5SLOfU2Gz4ZbZavkfzUbaTIs12mrnfI-CT0Q0theI5ETRK1iywxrqNFK1tIepIUdOxwHXqS-RdAKdJJaFnnexnQhvcZMqcMc-w4Zmx799bF4yzkhKwuU1pCncB6-v7Ebsg4qX7ErXsBB3VE55HfPUWAYVd2PnOiPDmicgaqBFGcC4ysnPzx71mUrsGF1zUCwKb3oZlrI~46daf6-qvh3CL-d13-weOsUUHH5R9w__"
             className="size-36 rounded-full border-2 border-black"
             alt=""
           />
@@ -135,7 +135,7 @@ const Home = () => {
             out...{" "}
           </p>
           <img
-            src="src/assets/waiter.jpg"
+            src="https://s3-alpha-sig.figma.com/img/efda/7adc/9fbb6a9f63dde74e10361a0b674b2823?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=otsw8ikFZl~ffjm3NPx9KpEHCH8YwfEvKNpM0JEVShrvTRm1JDbgGCoelgjZbFK5qlfWTO0RIAa0dP80eq~Xxdo4WkT8QmQvQihLiqA804bu3sAu4LjL-3GeD1Jxurrj1l2nO6c4cMxujf7T14bWCNhyzX4cJGiYvkt69E8srbdo9d2N6WGF1xAjiEZ3ltTYGzxUirnZLCSPzRqz6Q-MaNimwGQmfdKxaBAIrRQgiyGvG95vSvDlgIq383FsxwLzb2qt6asKMzIntdl1Iiiit9vSG52-Jx9cfoCangDY~oVyPpL9BcTUSEnutosJBxBvsWA2URsd8MKPkIKvVkAhsQ__"
             className="size-28 rounded-full border-2 border-black"
             alt=""
           />
