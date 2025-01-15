@@ -122,7 +122,7 @@ const Home = () => {
 
         <div id="container2" className="flex justify-center gap-14 px-40">
           <img
-            src="src/assets/ladychef.jpg"
+            src="https://s3-alpha-sig.figma.com/img/cf74/8664/29e3719722bb2ff9ae70846b27275dbd?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NGfy1A2TRjiHrH3r3SJJOjyJ~LVPTAfmMq6fVK~R87jUpJXw4nbVyFR~rvIGeEqbY5yQDg~eFVN6nGWbs7soREbEL4St24bBuyZaiDWO6thisQ~jpCnSNv5xxcfflKgYn8UYmXtNJ7MeVjn6ETBMlq4WqmvJN6TyeCj1SzLR3MkEeSIZi0XZ73nJKFTS~85ryvfdxUTbKt0RaSTL~XfhX21otT6sq~LdzQvd4qGnhCcziuNNvCYdztC9BkCy76axpz6XJwO7pY49OWAQWJYFUT7WYMuyerhVLBCyth2bDA1646V7P75TP9-ThfK4S~FU91TKQJ2D8Ln-zCbZUrXIuQ__"
             className="size-28 rounded-full border-2 border-black"
             alt=""
           />
