@@ -106,7 +106,7 @@ const Home = () => {
       <div className="h-80 bg-[#FE7700] mt-8 mb-8 pt-5 pb-10">
         <div id="container1" className="flex justify-center gap-52 px-16">
           <img
-            src="/src/assets/chef.png"
+            src="https://s3-alpha-sig.figma.com/img/5f05/a814/156bb8a0ad586d99a95544d46b442929?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qwTpQ6yQFN~CarJXNoWsp9ZsLoFun6WeSRS4XYfDEbyXbhxzxhxTbn~Tp~E6yJyyn9EORozTKxPrjJwgawHarIdHC7diXHCs6tgQ5sJk7UMz7TpD~urqMrvngBg3CbR9yDPpHBjUGP2XwdfmVbLXnXjH~iVlvj6wdohbn7qprPUV4h3EJma~d2z9XahgKbIpbCklsJI0fAs6gm40ylv6ltu5p3bacY1G~hHUGOv5zG4TZ0EpSEcvb5tkgMxH0odEmHcCuub0aIxFSwwC-zEPoGo-WH9DcRBcLKewgKCGJz2Nod8oNJjE4zMbo5HumP1QKVBUKFMx9Sbc8V8K6GsvGw__"
             className="size-44 rounded-full"
             alt=""
           />
