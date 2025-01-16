@@ -1,9 +1,8 @@
-import React from "react";
 import Layout from "../Layout/Layout";
 import { Button, Box, Typography } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import Card from "../components/Card";
-import Image from "../components/cardImages";
+import { Image, Image2 } from "../components/cardImages";
 
 const Home = () => {
   const bgImage =
@@ -103,44 +102,121 @@ const Home = () => {
       </Box>
 
       {/*Discover your taste section */}
-      <div className="h-80 bg-[#FE7700] mt-8 mb-8 pt-5 pb-10">
-        <div id="container1" className="flex justify-center gap-52 px-16">
+      <Box className="h-auto bg-[#FE7700] mt-8 mb-8 pt-5 pb-10 flex flex-col md:flex-row justify-between items-center px-6 md:px-16 gap-8">
+        {/* Left Images Container */}
+        <Box className="flex flex-col sm:flex-row gap-10 items-center">
           <img
             src="/src/assets/chef.png"
-            className="size-44 rounded-full"
-            alt=""
+            className="w-28 h-28 sm:w-36 sm:h-36 md:w-52 md:h-52 rounded-full"
+            alt="Chef"
           />
-          <h1 className="font-holtwood text-white text-center font-normal text-4xl leading-[65.1px]">
-            DISCOVER Your <br /> TASTE
-          </h1>
-          <img
-            src="/src/assets/salad.jpg"
-            className="size-36 rounded-full border-2 border-black"
-            alt=""
-          />
-        </div>
-
-        <div id="container2" className="flex justify-center gap-14 px-40">
           <img
             src="src/assets/ladychef.jpg"
-            className="size-28 rounded-full border-2 border-black"
-            alt=""
+            className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full border-2 border-black"
+            alt="Lady Chef"
           />
-          <p className="font-cambay font-normal text-xl leading-8 text-center tracking-tighter">
+        </Box>
+
+        {/* Text Container */}
+        <Box
+          id="text-container"
+          className="flex flex-col justify-center items-center gap-6 text-center"
+        >
+          <Typography className="font-holtwood text-white font-normal text-2xl md:text-4xl leading-8 md:leading-[65.1px]">
+            DISCOVER Your <br /> TASTE
+          </Typography>
+          <Typography className="font-cambay font-normal text-base md:text-xl leading-6 md:leading-8 tracking-tighter">
             We help you to discover fabulous taste, amazing culinary, best
             quality &
-            <br /> great service. By{" "}
-            <span className="underline">Cafe Dekho</span> you can locate the
-            cafe at your location <br /> with the categories you want to chill
-            out...{" "}
-          </p>
+            <br className="hidden md:block" /> great service. By{" "}
+            <span className="underline">Cafe Dekho</span>, you can locate the
+            cafe at your location <br className="hidden md:block" /> with the
+            categories you want to chill out...
+          </Typography>
+        </Box>
+
+        {/* Right Images Container */}
+        <Box className="flex flex-col sm:flex-row gap-10 items-center">
+          <img
+            src="/src/assets/salad.jpg"
+            className="w-28 h-28 sm:w-36 sm:h-36 md:w-52 md:h-52 rounded-full border-2 border-black"
+            alt="Salad"
+          />
           <img
             src="src/assets/waiter.jpg"
-            className="size-28 rounded-full border-2 border-black"
-            alt=""
+            className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full border-2 border-black"
+            alt="Waiter"
           />
-        </div>
-      </div>
+        </Box>
+      </Box>
+
+      {/*Cafe Categories */}
+      <Box className="flex flex-col items-center px-6 md:px-12 py-10 space-y-16">
+        <Box className="text-center max-w-4xl">
+          <Typography className="font-holtwood text-4xl md:text-5xl text-[#FE7700] mb-4">
+            CAFE CATEGORIES
+          </Typography>
+          <Typography className="font-cambay text-xl md:text-2xl leading-8 tracking-tighter font-normal">
+            Here you can check out the categories of Cafe by your choice. By{" "}
+            <span className="underline">Cafe Dekho</span>, you can choose the
+            cafe depending on your mood...
+          </Typography>
+        </Box>
+
+        {/* Themed Cafes Section */}
+        <Box className="w-full space-y-6">
+          <Typography className="font-cambay font-bold text-3xl md:text-4xl text-[#FE7700]">
+            Best Themed Cafe’s
+          </Typography>
+          <Typography className="font-cambay text-lg md:text-xl leading-8 tracking-tighter font-normal">
+            These cafes offer a unique experience by focusing on a specific
+            concept, such as a Bollywood theme, a comic book theme, or a nature
+            theme.
+          </Typography>
+          <Box className="flex flex-wrap justify-center md:justify-between gap-6">
+            {Image2.map((data, index) => (
+              <Card key={index} data={data} />
+            ))}
+          </Box>
+        </Box>
+
+        {/* Brunch Cafes Section */}
+        <Box className="w-full space-y-6">
+          <Typography className="font-cambay font-bold text-3xl md:text-4xl text-[#FE7700]">
+            Best Brunch Cafe’s
+          </Typography>
+          <Typography className="font-cambay text-lg md:text-xl leading-8 tracking-tighter font-normal">
+            Brunch cafes are a popular choice, and a good brunch menu is
+            essential for cafes that specialize in brunch.
+          </Typography>
+          <Box className="flex flex-wrap justify-center md:justify-between gap-6">
+            {Image2.map((data, index) => (
+              <Card key={index} data={data} />
+            ))}
+          </Box>
+        </Box>
+
+        {/* Pop-Up Cafes Section */}
+        <Box className="w-full space-y-6">
+          <Typography className="font-cambay font-bold text-3xl md:text-4xl text-[#FE7700]">
+            Best Pop-Up Cafe’s
+          </Typography>
+          <Typography className="font-cambay text-lg md:text-xl leading-8 tracking-tighter font-normal">
+            Pop-up cafes are limited-run cafes that often experiment with unique
+            concepts and beverages.
+          </Typography>
+          <Box className="flex flex-wrap justify-center md:justify-between gap-6">
+            {Image2.map((data, index) => (
+              <Card key={index} data={data} />
+            ))}
+          </Box>
+        </Box>
+
+        {/* Explore More Button */}
+        <button className="bg-[#FE7700] w-72 h-12 rounded-lg font-cambay font-bold text-xl text-white hover:bg-[#e86600] transition duration-300">
+          Explore More Categories...
+        </button>
+      </Box>
     </Layout>
   );
 };
