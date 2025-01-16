@@ -106,12 +106,12 @@ const Home = () => {
         {/* Left Images */}
         <Box className="flex flex-row gap-9 items-center md:items-start md:flex-col">
           <img
-            src="/src/assets/chef.png"
+            src="https://s3-alpha-sig.figma.com/img/5f05/a814/156bb8a0ad586d99a95544d46b442929?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qwTpQ6yQFN~CarJXNoWsp9ZsLoFun6WeSRS4XYfDEbyXbhxzxhxTbn~Tp~E6yJyyn9EORozTKxPrjJwgawHarIdHC7diXHCs6tgQ5sJk7UMz7TpD~urqMrvngBg3CbR9yDPpHBjUGP2XwdfmVbLXnXjH~iVlvj6wdohbn7qprPUV4h3EJma~d2z9XahgKbIpbCklsJI0fAs6gm40ylv6ltu5p3bacY1G~hHUGOv5zG4TZ0EpSEcvb5tkgMxH0odEmHcCuub0aIxFSwwC-zEPoGo-WH9DcRBcLKewgKCGJz2Nod8oNJjE4zMbo5HumP1QKVBUKFMx9Sbc8V8K6GsvGw__"
             className="w-28 h-28 md:w-44 md:h-44 rounded-full"
             alt="Chef"
           />
           <img
-            src="src/assets/ladychef.jpg"
+            src="https://s3-alpha-sig.figma.com/img/cf74/8664/29e3719722bb2ff9ae70846b27275dbd?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NGfy1A2TRjiHrH3r3SJJOjyJ~LVPTAfmMq6fVK~R87jUpJXw4nbVyFR~rvIGeEqbY5yQDg~eFVN6nGWbs7soREbEL4St24bBuyZaiDWO6thisQ~jpCnSNv5xxcfflKgYn8UYmXtNJ7MeVjn6ETBMlq4WqmvJN6TyeCj1SzLR3MkEeSIZi0XZ73nJKFTS~85ryvfdxUTbKt0RaSTL~XfhX21otT6sq~LdzQvd4qGnhCcziuNNvCYdztC9BkCy76axpz6XJwO7pY49OWAQWJYFUT7WYMuyerhVLBCyth2bDA1646V7P75TP9-ThfK4S~FU91TKQJ2D8Ln-zCbZUrXIuQ__"
             className="w-24 h-24 md:w-28 md:h-28 rounded-full border-2 border-black"
             alt="Lady Chef"
           />
@@ -136,12 +136,12 @@ const Home = () => {
         {/* Right Images */}
         <Box className="flex flex-row gap-9 items-center md:items-end md:flex-col">
           <img
-            src="/src/assets/salad.jpg"
+            src="https://s3-alpha-sig.figma.com/img/a08e/7bbd/2f23fa736aa0c571032615463571172e?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Dm-0kl5rcsv8SwD0O3H7-T3dK3Q9-LYRiW7MkUqMGvZTYdDj8zR2z97N6n1XDiMVJIFh7-3N5H8XmSw~6fuCsXi1lgoLoD51yhpJmBINeYCUH1x5SLOfU2Gz4ZbZavkfzUbaTIs12mrnfI-CT0Q0theI5ETRK1iywxrqNFK1tIepIUdOxwHXqS-RdAKdJJaFnnexnQhvcZMqcMc-w4Zmx799bF4yzkhKwuU1pCncB6-v7Ebsg4qX7ErXsBB3VE55HfPUWAYVd2PnOiPDmicgaqBFGcC4ysnPzx71mUrsGF1zUCwKb3oZlrI~46daf6-qvh3CL-d13-weOsUUHH5R9w__"
             className="w-24 h-24 md:w-36 md:h-36 rounded-full border-2 border-black"
             alt="Salad"
           />
           <img
-            src="src/assets/waiter.jpg"
+            src="https://s3-alpha-sig.figma.com/img/efda/7adc/9fbb6a9f63dde74e10361a0b674b2823?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=otsw8ikFZl~ffjm3NPx9KpEHCH8YwfEvKNpM0JEVShrvTRm1JDbgGCoelgjZbFK5qlfWTO0RIAa0dP80eq~Xxdo4WkT8QmQvQihLiqA804bu3sAu4LjL-3GeD1Jxurrj1l2nO6c4cMxujf7T14bWCNhyzX4cJGiYvkt69E8srbdo9d2N6WGF1xAjiEZ3ltTYGzxUirnZLCSPzRqz6Q-MaNimwGQmfdKxaBAIrRQgiyGvG95vSvDlgIq383FsxwLzb2qt6asKMzIntdl1Iiiit9vSG52-Jx9cfoCangDY~oVyPpL9BcTUSEnutosJBxBvsWA2URsd8MKPkIKvVkAhsQ__"
             className="w-24 h-24 md:w-28 md:h-28 rounded-full border-2 border-black"
             alt="Waiter"
           />
