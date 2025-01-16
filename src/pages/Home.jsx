@@ -102,78 +102,48 @@ const Home = () => {
       </Box>
 
       {/*Discover your taste section */}
-      <Box className="h-auto bg-[#FE7700] mt-8 mb-8 pt-5 pb-10 flex flex-col md:flex-row justify-between items-center px-6 md:px-16 gap-8">
-        {/* Left Images Container */}
-        <Box className="flex flex-col sm:flex-row gap-10 items-center">
+      <Box className="h-auto bg-[#FE7700] mt-8 mb-8 pt-3 pb-10 flex flex-col md:flex-row justify-center items-center px-6 gap-6 md:gap-10 ">
+        {/* Left Images */}
+        <Box className="flex flex-row gap-9 items-center md:items-start md:flex-col">
           <img
-<<<<<<< HEAD
             src="/src/assets/chef.png"
-            className="w-28 h-28 sm:w-36 sm:h-36 md:w-52 md:h-52 rounded-full"
+            className="w-28 h-28 md:w-44 md:h-44 rounded-full"
             alt="Chef"
           />
           <img
             src="src/assets/ladychef.jpg"
-            className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full border-2 border-black"
+            className="w-24 h-24 md:w-28 md:h-28 rounded-full border-2 border-black"
             alt="Lady Chef"
-=======
-            src="https://s3-alpha-sig.figma.com/img/5f05/a814/156bb8a0ad586d99a95544d46b442929?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qwTpQ6yQFN~CarJXNoWsp9ZsLoFun6WeSRS4XYfDEbyXbhxzxhxTbn~Tp~E6yJyyn9EORozTKxPrjJwgawHarIdHC7diXHCs6tgQ5sJk7UMz7TpD~urqMrvngBg3CbR9yDPpHBjUGP2XwdfmVbLXnXjH~iVlvj6wdohbn7qprPUV4h3EJma~d2z9XahgKbIpbCklsJI0fAs6gm40ylv6ltu5p3bacY1G~hHUGOv5zG4TZ0EpSEcvb5tkgMxH0odEmHcCuub0aIxFSwwC-zEPoGo-WH9DcRBcLKewgKCGJz2Nod8oNJjE4zMbo5HumP1QKVBUKFMx9Sbc8V8K6GsvGw__"
-            className="size-44 rounded-full"
-            alt=""
-          />
-          <h1 className="font-holtwood text-white text-center font-normal text-4xl leading-[65.1px]">
-            DISCOVER Your <br /> TASTE
-          </h1>
-          <img
-            src="https://s3-alpha-sig.figma.com/img/a08e/7bbd/2f23fa736aa0c571032615463571172e?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Dm-0kl5rcsv8SwD0O3H7-T3dK3Q9-LYRiW7MkUqMGvZTYdDj8zR2z97N6n1XDiMVJIFh7-3N5H8XmSw~6fuCsXi1lgoLoD51yhpJmBINeYCUH1x5SLOfU2Gz4ZbZavkfzUbaTIs12mrnfI-CT0Q0theI5ETRK1iywxrqNFK1tIepIUdOxwHXqS-RdAKdJJaFnnexnQhvcZMqcMc-w4Zmx799bF4yzkhKwuU1pCncB6-v7Ebsg4qX7ErXsBB3VE55HfPUWAYVd2PnOiPDmicgaqBFGcC4ysnPzx71mUrsGF1zUCwKb3oZlrI~46daf6-qvh3CL-d13-weOsUUHH5R9w__"
-            className="size-36 rounded-full border-2 border-black"
-            alt=""
-          />
-        </div>
-
-        <div id="container2" className="flex justify-center gap-14 px-40">
-          <img
-            src="https://s3-alpha-sig.figma.com/img/cf74/8664/29e3719722bb2ff9ae70846b27275dbd?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NGfy1A2TRjiHrH3r3SJJOjyJ~LVPTAfmMq6fVK~R87jUpJXw4nbVyFR~rvIGeEqbY5yQDg~eFVN6nGWbs7soREbEL4St24bBuyZaiDWO6thisQ~jpCnSNv5xxcfflKgYn8UYmXtNJ7MeVjn6ETBMlq4WqmvJN6TyeCj1SzLR3MkEeSIZi0XZ73nJKFTS~85ryvfdxUTbKt0RaSTL~XfhX21otT6sq~LdzQvd4qGnhCcziuNNvCYdztC9BkCy76axpz6XJwO7pY49OWAQWJYFUT7WYMuyerhVLBCyth2bDA1646V7P75TP9-ThfK4S~FU91TKQJ2D8Ln-zCbZUrXIuQ__"
-            className="size-28 rounded-full border-2 border-black"
-            alt=""
->>>>>>> 719f73eb3dab11ee637366562ce4981f86bdab4c
           />
         </Box>
 
         {/* Text Container */}
         <Box
           id="text-container"
-          className="flex flex-col justify-center items-center gap-6 text-center"
+          className="flex flex-col justify-center items-center gap-4 md:gap-6 text-center w-full md:w-2/3 lg:w-1/2 mt-1 md:mt-0"
         >
           <Typography className="font-holtwood text-white font-normal text-2xl md:text-4xl leading-8 md:leading-[65.1px]">
             DISCOVER Your <br /> TASTE
           </Typography>
-          <Typography className="font-cambay font-normal text-base md:text-xl leading-6 md:leading-8 tracking-tighter">
+          <Typography className="font-cambay font-normal text-sm md:text-xl leading-5 md:leading-8 tracking-tighter text-black">
             We help you to discover fabulous taste, amazing culinary, best
-            quality &
-            <br className="hidden md:block" /> great service. By{" "}
+            quality & great service. By{" "}
             <span className="underline">Cafe Dekho</span>, you can locate the
-            cafe at your location <br className="hidden md:block" /> with the
-            categories you want to chill out...
+            cafe at your location with the categories you want to chill out...
           </Typography>
         </Box>
 
-        {/* Right Images Container */}
-        <Box className="flex flex-col sm:flex-row gap-10 items-center">
+        {/* Right Images */}
+        <Box className="flex flex-row gap-9 items-center md:items-end md:flex-col">
           <img
             src="/src/assets/salad.jpg"
-            className="w-28 h-28 sm:w-36 sm:h-36 md:w-52 md:h-52 rounded-full border-2 border-black"
+            className="w-24 h-24 md:w-36 md:h-36 rounded-full border-2 border-black"
             alt="Salad"
           />
           <img
-<<<<<<< HEAD
             src="src/assets/waiter.jpg"
-            className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full border-2 border-black"
+            className="w-24 h-24 md:w-28 md:h-28 rounded-full border-2 border-black"
             alt="Waiter"
-=======
-            src="https://s3-alpha-sig.figma.com/img/efda/7adc/9fbb6a9f63dde74e10361a0b674b2823?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=otsw8ikFZl~ffjm3NPx9KpEHCH8YwfEvKNpM0JEVShrvTRm1JDbgGCoelgjZbFK5qlfWTO0RIAa0dP80eq~Xxdo4WkT8QmQvQihLiqA804bu3sAu4LjL-3GeD1Jxurrj1l2nO6c4cMxujf7T14bWCNhyzX4cJGiYvkt69E8srbdo9d2N6WGF1xAjiEZ3ltTYGzxUirnZLCSPzRqz6Q-MaNimwGQmfdKxaBAIrRQgiyGvG95vSvDlgIq383FsxwLzb2qt6asKMzIntdl1Iiiit9vSG52-Jx9cfoCangDY~oVyPpL9BcTUSEnutosJBxBvsWA2URsd8MKPkIKvVkAhsQ__"
-            className="size-28 rounded-full border-2 border-black"
-            alt=""
->>>>>>> 719f73eb3dab11ee637366562ce4981f86bdab4c
           />
         </Box>
       </Box>
